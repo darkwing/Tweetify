@@ -24,6 +24,8 @@ provides:
 		tweetify: fn
 	});
 	Element.implement({
-		tweetify: fn.bind(this.get('text'))
+		tweetify: function() {
+			this.set('text',fn.bind(this.get('text')).attempt());
+		}
 	});
 })();
