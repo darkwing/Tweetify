@@ -1,7 +1,7 @@
 name:  Tweetify
 author:  davidwalsh
-current:  
-category:  
-tags:  []
-docs:  
-demo:  
+current:  .5
+category:  Utilities
+tags:  [Twitter,Element]
+docs:  http://davidwalsh.name/tweetify
+demo:  http://davidwalsh.name/tweetify
