@@ -13,6 +13,7 @@ requires:
 
 provides:
   - Element.tweetify
+  - String.toTweet
   - String.tweetify
 ...
 */
@@ -25,8 +26,10 @@ provides:
 	};
 	
 	String.implement({
-		tweetify: fn
+		toTweet: fn
 	});
+	
+	String.alias('toTweet','tweetify');
 	
 	Element.implement({
 		tweetify: function() {
